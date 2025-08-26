@@ -24,7 +24,8 @@ The goal of this project is to provide a robust solution for file management wit
 The platform's architecture is designed to be fully serverless, relying on managed AWS services to handle the entire workflow from user authentication to file storage.
 
 
-![Picture1](https://github.com/user-attachments/assets/f7139f03-62bd-4513-8694-08503b90aa57)
+<img width="732" height="428" alt="pic2" src="https://github.com/user-attachments/assets/9e5bbe2b-9011-4999-ad3a-535ec791aea1" />
+
 
 
 ---
