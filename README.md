@@ -1,14 +1,14 @@
-# Serverless File Sharing Platform ☁️
+# AWS Based File Sharing Platform 
 
 A secure, scalable, and cost-effective file sharing platform built entirely on AWS serverless technologies. This project allows users to securely upload and download files through a simple HTTP API, with authentication managed by AWS Cognito.
 
 ---
 
-## 🚀 About The Project
+## About The Project
 
 The goal of this project is to provide a robust solution for file management without the need to provision or manage traditional servers. It leverages the power of serverless computing to create an efficient, event-driven system. Users can interact with the platform using any HTTP client, like Postman, after authenticating to get a secure token.
 
-### ✅ Key Features
+### Key Features
 
 * **Secure File Uploads & Downloads:** Transfer files using authenticated POST and GET requests.
 * **User Authentication:** Secure user management, registration, and sign-in handled by **AWS Cognito**.
@@ -19,13 +19,11 @@ The goal of this project is to provide a robust solution for file management wit
 
 ---
 
-## 🛠️ System Architecture
+## System Architecture
 
 The platform's architecture is designed to be fully serverless, relying on managed AWS services to handle the entire workflow from user authentication to file storage.
 
-![System Architecture](./assets/architecture-diagram.png)
-
-*(Note: For the image to appear, you will need to add your architecture diagram to an `assets` folder in your repository as explained previously.)*
+---
 
 ### How It Works
 
@@ -40,7 +38,7 @@ The platform's architecture is designed to be fully serverless, relying on manag
 
 ---
 
-## ⚙️ Technology Stack
+## Technology Stack
 
 This project is built using the following services and technologies:
 
@@ -60,7 +58,7 @@ This project is built using the following services and technologies:
 
 ---
 
-## ▶️ Getting Started
+## Getting Started
 
 To get a local copy up and running, follow these simple steps.
 
@@ -86,7 +84,7 @@ To get a local copy up and running, follow these simple steps.
 
 ---
 
-## 📋 Usage
+## Usage
 
 1.  **Sign Up / Sign In:** Use the Cognito-hosted UI or an API call to register and sign in. You will receive a JWT access token.
 2.  **Upload a File:**
@@ -101,9 +99,3 @@ To get a local copy up and running, follow these simple steps.
 
 ---
 
-## 🧑‍💻 Project Authors
-
-* **Lakshita Setia** - *22BIT0695*
-* **Manasa Reddipalli** - *22BIT0483*
-
-This project was developed as part of the **BITE412L - Cloud Computing** course at Vellore Institute of Technology.
